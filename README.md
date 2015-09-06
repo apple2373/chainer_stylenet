@@ -10,7 +10,11 @@ http://chainer.org
 ```
 pip install chainer
 wget http://www.robots.ox.ac.uk/%7Evgg/software/very_deep/caffe/VGG_ILSVRC_19_layers.caffemodel
-python style_net.py -g 3 -c kinkaku.jpg -s style.png -d kinkaku
+python style_net.py -g -1 -c kinkaku.jpg -s style.png -d kinkaku
+```
+if you want to use GPU (recommended). 0 is GPU ID.
+```
+python style_net.py -g 0 -c kinkaku.jpg -s style.png -d kinkaku
 ```
 
 ## Comment
