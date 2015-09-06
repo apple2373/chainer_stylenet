@@ -7,8 +7,8 @@
 #I did not paramatalized it because it would be too complizated. 
 #I think defalt is fine, but if you want, you can easily change it directly. See L_style in forward().
 
-#I recommend to make content_image a squire size.
-#However, you can use rectangular one, but the output will be forsed to a squire.
+#I recommend to make content_image a squared size.
+#However, you can use rectangular one, but the output will be forsed to a square.
 #You need to resize agian, ex,
 #img = imread('filename.png')
 #img = imresize(img,[400,300])
@@ -27,7 +27,7 @@ import matplotlib.pyplot as plt
 from scipy.misc import imread, imresize, imsave
 
 #Settings
-gpu_id=3# GPU ID. if you want to use cpu, -1
+gpu_id=-1# GPU ID. if you want to use cpu, -1
 content_image='content.png' #name of content image 
 style_image='style.png' #name of style image
 savedir='results'# name of log and results image saving directory

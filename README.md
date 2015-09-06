@@ -3,8 +3,10 @@
 This is a quick implementation of http://arxiv.org/abs/1508.06576
 
 ## Requirements
-chainer
+chainer (1.3)
 http://chainer.org
+
+And tarined caffe VGG model
 
 ## Quick Usage
 ```
@@ -23,8 +25,8 @@ This part is coresponding to equation (4) and (5).
 I did not paramatalized it because it would be too complizated. 
 I think defalt is fine, but if you want, you can easily change it directly. See L_style in forward().
 
-I recommend to make content image a squired size.
-However, you can use rectangular one, but the output will be forsed to a squire.
+I recommend to make content image a squared size.
+However, you can use rectangular one, but the output will be forsed to a square.
 You need to resize agian, ex in python,
 ```
 from scipy.misc import imread, imresize
