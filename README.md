@@ -2,6 +2,8 @@
 
 This is a quick implementation of http://arxiv.org/abs/1508.06576
 
+Blog post: http://t-satoshi.blogspot.com/2015/09/a-neural-algorithm-of-artistic-style.html
+
 ## Requirements
 chainer (1.3)
 http://chainer.org
@@ -9,6 +11,7 @@ http://chainer.org
 And tarined caffe VGG model
 
 ## Quick Usage
+install Anaconda (https://www.continuum.io/downloads) and then, 
 ```
 pip install chainer
 wget http://www.robots.ox.ac.uk/%7Evgg/software/very_deep/caffe/VGG_ILSVRC_19_layers.caffemodel
