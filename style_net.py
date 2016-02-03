@@ -1,6 +1,10 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 '''
+Worning! Be sure to use chainer 1.3.2
+this code does not work in chainer 1.6
+(I didn't test with from 1.4 to 1.5)
+
 This is a quick implementation of http://arxiv.org/abs/1508.06576
 There is a hard coding part. The computation of L_style in forward()
 This part is coresponding to equation (4) and (5).

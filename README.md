@@ -10,7 +10,7 @@ http://chainer.org
 And pre-tarined caffe VGG model
 
 Worning! Be suer to use chainer 1.3.2!!  
-This code does not work in chainer 1.6 (I did't test with from 1.4 to 1.5)  
+This code does not work in chainer 1.6 (I didn't test with from 1.4 to 1.5)  
 
 ## Quick Usage
 install Anaconda (https://www.continuum.io/downloads) and then, 
