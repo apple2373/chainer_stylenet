@@ -5,15 +5,17 @@ This is a quick implementation of http://arxiv.org/abs/1508.06576
 Blog post: http://t-satoshi.blogspot.com/2015/09/a-neural-algorithm-of-artistic-style.html
 
 ## Requirements
-chainer (1.3)
+chainer (1.3.2)
 http://chainer.org
+And pre-tarined caffe VGG model
 
-And tarined caffe VGG model
+Worning! Be suer to use chainer 1.3.2!!
+This code does not work in chainer 1.6 (I did't test with from 1.4 to 1.5)  
 
 ## Quick Usage
 install Anaconda (https://www.continuum.io/downloads) and then, 
 ```
-pip install chainer
+pip install chainer==1.3.2
 wget http://www.robots.ox.ac.uk/%7Evgg/software/very_deep/caffe/VGG_ILSVRC_19_layers.caffemodel
 python style_net.py -g -1 -c kinkaku.jpg -s style.png -d kinkaku
 ```

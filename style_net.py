@@ -1,20 +1,21 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+'''
+This is a quick implementation of http://arxiv.org/abs/1508.06576
+There is a hard coding part. The computation of L_style in forward()
+This part is coresponding to equation (4) and (5).
+I did not paramatalized it because it would be too complizated. 
+I think defalt is fine, but if you want, you can easily change it directly. See L_style in forward().
 
-# This is a quick implementation of http://arxiv.org/abs/1508.06576
-# There is a hard coding part. The computation of L_style in forward()
-# This part is coresponding to equation (4) and (5).
-#I did not paramatalized it because it would be too complizated. 
-#I think defalt is fine, but if you want, you can easily change it directly. See L_style in forward().
+I recommend to make content_image a squared size.
+However, you can use rectangular one, but the output will be forsed to a square.
+You need to resize agian, ex,
+img = imread('filename.png')
+img = imresize(img,[400,300])
 
-#I recommend to make content_image a squared size.
-#However, you can use rectangular one, but the output will be forsed to a square.
-#You need to resize agian, ex,
-#img = imread('filename.png')
-#img = imresize(img,[400,300])
-
-#Basic settings is configured, in #Settings part, which is just after the import sentences.
-#20000 iteraton will be done. Image is saved every 500 iteration.
+Basic settings is configured, in #Settings part, which is just after the import sentences.
+20000 iteraton will be done. Image is saved every 500 iteration.
+'''
 
 import argparse
 import os
