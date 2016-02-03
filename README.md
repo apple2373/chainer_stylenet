@@ -9,7 +9,7 @@ chainer (1.3.2)
 http://chainer.org
 And pre-tarined caffe VGG model
 
-Worning! Be suer to use chainer 1.3.2!!  
+Warning! Be suer to use chainer 1.3.2!!  
 This code does not work in chainer 1.6 (I didn't test with from 1.4 to 1.5)  
 
 ## Quick Usage
