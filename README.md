@@ -2,7 +2,9 @@
 
 This is a quick implementation of http://arxiv.org/abs/1508.06576
 
-Blog post: http://t-satoshi.blogspot.com/2015/09/a-neural-algorithm-of-artistic-style.html
+Blog post: http://t-satoshi.blogspot.com/2015/09/a-neural-algorithm-of-artistic-style.html  
+
+How the learning goes:  https://googledrive.com/host/0B046sNk0DhCDcWZpeHNETWhza3M/top.html 
 
 ## Requirements
 chainer (1.3.2)
